@@ -25,6 +25,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Deseja permitir o $(PRODUCT_NAME) acessar a câmera?"
+        }
+      ]
+    ]
   }
 }
